@@ -1,0 +1,145 @@
+
+
+  
+
+      .search-bar{
+        font-size: 18px;
+        margin-left: 0px;
+        display:  inline-block;
+        height: 25.9px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        text-align: center;
+        align-content: center;
+        margin-top: 5px;
+        margin-right: 0px;
+        box-shadow: inset 1px 2px 2px rgba(0, 0,0, 0.17);
+        flex: 1;
+        width: 0;
+        border-width: 1px;
+        border-color: rgb(205, 202, 202);
+
+
+        }
+        .search{
+            width: 25px;
+            align-content: center;
+            margin: 0px;
+            margin-left: 0px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            
+           
+            
+
+
+            
+        }
+        .header{
+            height: 40px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(250, 250, 250);
+            
+            
+    
+        }
+        .left-section{
+            background-color: rgb(250, 250, 250);
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            flex-shrink: 0;
+            height: 30px;
+
+            
+        }
+        .middle-section{
+            background-color: rgb(249, 246, 247);
+            flex: 1;
+            margin: 0px 35px 0px 70px;
+            max-width: 500px;
+            display: flex;
+        }
+        .right-section{
+            background-color: rgb(250, 250, 250);
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 10px;
+            flex-shrink: 0;
+
+        }
+
+
+
+        .menu{
+            width: 30px;
+            
+            align-content: center;
+            margin: 5px;
+            margin-bottom: 0px;
+            margin-left: 5px;
+
+        }
+        .youtube-logo{
+            width: 100px;
+            height: 30px;
+            
+            padding-left: 20px;
+
+        }
+        .voice{
+            width: 20px;
+            height: 20px;
+            align-content: center;
+            margin: 0px;
+            margin-left: 0px;
+            border-width: 2px;
+            border-radius: 15px;
+            
+
+        }
+        .create,
+        .youtube-apps,
+        .notification,
+        .my-profile{
+            
+            align-content: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+            
+        }
+        button{
+            height: 30px;
+            background-color: rgb(250, 251, 252);
+            margin-top: 5px;
+            border-color:  rgb(205, 202, 202);
+            border-width: 1px;
+
+        }
+        .voice-button{
+            margin-left: 10px;
+            border-radius: 17px;
+        }
+        .search-button{
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            margin-left: -1px;
+            
+        }
+        .voice-button:hover,
+        .menu:hover,
+        .search-button:hover,
+        .search-button:hover{
+            opacity: 0.6;
+        }
+        
+
+
+
+  

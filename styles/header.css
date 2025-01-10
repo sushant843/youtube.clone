@@ -1,0 +1,31 @@
+.search-bar{
+    font-size: 12px;
+    margin-left: 0px;
+    display: block;
+    border-width: 1px;
+    height: 20px;
+    padding-bottom: 10px;
+    }
+    .header{
+        height: 40px;
+        display:flex;
+        flex-direction: row;
+        background-color: rgb(203, 208, 212);
+        justify-content: space-between;
+        
+
+    }
+    .left-section{
+        background-color: rgb(230, 230, 237);
+        
+    }
+    .middle-section{
+        background-color: rgb(238, 213, 216);
+        flex: 1;
+        margin: 0px 35px 0px 70px;
+        max-width: 500px;
+    }
+    .right-section{
+        background-color: rgb(234, 20, 91);
+        width: 250px;
+    }

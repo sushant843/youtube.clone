@@ -1,0 +1,73 @@
+.column-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 3 columns by default */
+    gap: 20px; /* Space between videos */
+    padding: 20px;
+    
+}
+.video1{
+display:inline-flex;
+flex-direction: column;
+width:fit-content;
+
+
+
+}
+.thumbnail1{
+width: 100%;
+
+padding: 10px 10px 0px 0px;
+
+}
+
+p{
+    margin: 0px 0px 2px 0px;
+}
+
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+
+}
+
+.profile{
+display: inline-block;
+vertical-align: top;
+margin: 15px 10px 10px 0px;
+
+}
+.profile-pic{
+width: 30px;
+height: 30px;
+border-radius:15px ;
+}
+.details{
+    width: max-content;
+}
+.video-title{
+font-weight:bold;
+margin-top: 15px;
+font-family: roboto,arial;
+font-size: 14px;
+width: 230px;
+margin-bottom: 10px;
+}
+.video-author,
+.video-stats{
+color: rgb(52, 54, 54);
+font-size: 12px;
+}
+@media (max-width: 1024px) {
+    .column-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .column-grid {
+        grid-template-columns: 1fr 1fr; 
+        padding: 10px;  
+    }
+}
+
+
